@@ -631,6 +631,11 @@ body{
   color: #ccc;
   margin-top: 10px;
 }
+.project-desc {
+  font-size: 14px;
+  color: #ccc;
+  margin-top: 10px;
+}
 
 /* Open Icon */
 .open-icon {
@@ -1119,6 +1124,42 @@ body{
   }
   .exp-bullets li::before {
     font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #mobileMenuBtn {
+    display: inline-block !important;
+    position: absolute;
+    left: 12px;
+    top: 10px;
+    z-index: 1100;
+  }
+  .navbar {
+    position: relative;
+    padding-left: 48px;
+  }
+  .navlist {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100vw;
+    background: #181f22ee;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+    border-bottom: 2px solid #23292c;
+    transition: max-height 0.3s;
+    z-index: 1002;
+  }
+  .navbar.nav-open .navlist {
+    display: flex;
+    flex-direction: column;
+    max-height: 400px;
+    animation: fadeInMenu 0.2s;
+  }
+  @keyframes fadeInMenu {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
   }
 }
 
