@@ -39,7 +39,6 @@ body{
 
 .navbar{
     background-image: url('/images/AlbedoBase_XL_A_minimalistic_highresolution_night_sky_backgrou_2.jpg'), url('/images/moonnav.jpg');
-    background-size: ;
     background-position: right, left;
     background-repeat: no-repeat, repeat;
     /* background-color: #595559; */
@@ -808,12 +807,55 @@ body{
   }
 
   .navbar {
-    width: 95%;
-    padding: 10px;
-    margin: 10px auto;
-    text-align: center;
-    background-position: center;
+    width: 100%;
+    min-width: 0;
+    max-width: 100vw;
+    padding: 12px 0 8px 0;
+    margin: 0;
+    border-radius: 0;
+    background: #181f22cc; /* semi-transparent dark for contrast */
     background-size: cover;
+    background-position: center;
+    font-size: 16px;
+    color: #00f0ff;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+    border-bottom: 2px solid #222;
+    z-index: 1001;
+    position: sticky;
+    top: 0;
+  }
+  .navlist {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    width: 100%;
+    padding: 0 0 8px 0;
+    margin: 0;
+  }
+  .navlist li {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #23292c;
+    padding: 0;
+  }
+  .navlist li:last-child {
+    border-bottom: none;
+  }
+  .navlist a {
+    display: block;
+    width: 100%;
+    padding: 18px 0;
+    font-size: 18px;
+    border-radius: 0;
+    color: #6ffcff;
+    background: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: background 0.2s, color 0.2s;
+  }
+  .navlist a:active, .navlist a:focus, .navlist a:hover {
+    background: #23292c;
+    color: #00f0ff;
   }
 
   .navlist {
