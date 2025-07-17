@@ -1132,12 +1132,14 @@ body{
     display: inline-block !important;
     position: absolute;
     left: 12px;
-    top: 10px;
+    top: 50%;
+    transform: translateY(-50%);
     z-index: 1100;
   }
   .navbar {
     position: relative;
     padding-left: 48px;
+    font-size: 18px;
   }
   .navlist {
     display: none;
@@ -1150,12 +1152,39 @@ body{
     border-bottom: 2px solid #23292c;
     transition: max-height 0.3s;
     z-index: 1002;
+    text-align: center;
   }
   .navbar.nav-open .navlist {
     display: flex;
     flex-direction: column;
     max-height: 400px;
     animation: fadeInMenu 0.2s;
+  }
+  .navlist li {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #23292c;
+    padding: 0;
+  }
+  .navlist li:last-child {
+    border-bottom: none;
+  }
+  .navlist a {
+    display: block;
+    width: 100%;
+    padding: 22px 0;
+    font-size: 20px;
+    border-radius: 0;
+    color: #6ffcff;
+    background: none;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    transition: background 0.2s, color 0.2s;
+    text-align: center;
+  }
+  .navlist a:active, .navlist a:focus, .navlist a:hover {
+    background: #23292c;
+    color: #00f0ff;
   }
   @keyframes fadeInMenu {
     from { opacity: 0; transform: translateY(-10px); }
