@@ -18,7 +18,7 @@ h1.cs-heading{
 h1.eng-heading{
     margin-top: 0;
     margin-left: 150px;
-    color: #00F050;
+    color: #6ffcff;
     margin-bottom: 2px;
 }
 
@@ -39,11 +39,11 @@ body{
 
 .navbar{
     background-image: url('/images/AlbedoBase_XL_A_minimalistic_highresolution_night_sky_backgrou_2.jpg'), url('/images/moonnav.jpg');
-    background-size: contain;
+    background-size: ;
     background-position: right, left;
     background-repeat: no-repeat, repeat;
     /* background-color: #595559; */
-    color: #DEDED3;
+    color: #00f0ff;
     font-family: "DM Sans", sans-serif;
     width: 500px;
     margin: 0 auto;
@@ -123,7 +123,7 @@ body{
     font-family: "Outfit", sans-serif;
     font-weight: 100;
     font-style: normal;
-    border-left: 4px solid #00f0a0;
+    border-left: 4px solid #6ffcff;
     padding-left: 12px;
 }
 
@@ -185,14 +185,14 @@ body{
   margin: 0;
   margin-left: 120px;
   max-width: 700px;
-  box-shadow: 0 4px 12px rgba(0, 255, 160, 0.2);
+  box-shadow: 0 4px 12px rgba(111,252,255,0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   margin-bottom: 20px;
 }
 
 .ug:hover {
   transform: scale(1.02);
-  box-shadow: 0 6px 20px rgba(0, 255, 160, 0.4);
+  box-shadow: 0 6px 20px rgba(111,252,255,0.4);
 }
 
 .ug h3, .ug h4, .ug h5 {
@@ -204,7 +204,7 @@ body{
 .ug h3 {
   font-size: 20px;
   font-weight: 600;
-  color: #00f0a0;
+  color: #6ffcff;
   margin-top: 15px;
   margin-bottom: 5px;
 }
@@ -232,14 +232,14 @@ body{
   margin: 0;
   margin-left: 120px;
   max-width: 700px;
-  box-shadow: 0 4px 12px rgba(0, 255, 160, 0.2);
+  box-shadow: 0 4px 12px rgba(111,252,255,0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   margin-bottom: 20px;
 }
 
 .twelveth:hover, .tenth:hover {
   transform: scale(1.02);
-  box-shadow: 0 6px 20px rgba(0, 255, 160, 0.4);
+  box-shadow: 0 6px 20px rgba(111,252,255,0.4);
 }
 
 .twelveth h3, .twelveth h4, .twelveth h5,
@@ -252,7 +252,7 @@ body{
 .twelveth h3, .tenth h3 {
   font-size: 20px;
   font-weight: 600;
-  color: #00f0a0;
+  color: #6ffcff;
   margin-top: 15px;
   margin-bottom: 5px;
 }
@@ -293,7 +293,7 @@ body{
 
 .interest-tag {
   background-color: #1e1e1e;
-  border: 1px solid #00f0a0;
+  border: 1px solid #6ffcff;
   color: #ffffff;
   padding: 8px 16px;
   border-radius: 10px;
@@ -304,9 +304,9 @@ body{
 }
 
 .interest-tag:hover {
-  background-color: rgba(0, 255, 160, 0.4);
+  background-color: rgba(111,252,255,0.4);
   color: black;
-  box-shadow: 0 6px 20px rgba(0, 255, 160, 0.4);
+  box-shadow: 0 6px 20px rgba(111,252,255,0.4);
 }
 
 
@@ -411,7 +411,7 @@ body{
   border-radius: 12px;
   max-width: 700px;
   width: 500px;
-  box-shadow: 0 4px 12px rgba(0, 255, 160, 0.2);
+  box-shadow: 0 4px 12px rgba(111,252,255,0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   padding: 20px;
   margin-bottom: 20px;
@@ -419,7 +419,7 @@ body{
 
 .role1-box:hover {
   transform: scale(1.02);
-  box-shadow: 0 6px 20px rgba(0, 255, 160, 0.4);
+  box-shadow: 0 6px 20px rgba(111,252,255,0.4);
 }
 
 .contact-form {
@@ -428,14 +428,14 @@ body{
   background-color: #1e1e1e;
   padding: 30px;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 255, 160, 0.2);
+  box-shadow: 0 4px 12px rgba(111,252,255,0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 
 .contact-form:hover {
   transform: scale(1.02);
-  box-shadow: 0 6px 20px rgba(0, 255, 160, 0.4);
+  box-shadow: 0 6px 20px rgba(111,252,255,0.4);
 }
 
 .contact-form label {
@@ -464,12 +464,12 @@ body{
 .contact-form input:focus,
 .contact-form textarea:focus {
   outline: none;
-  border: 1px solid #00f0a0;
-  box-shadow: 0 0 8px rgba(0, 255, 160, 0.4);
+  border: 1px solid #6ffcff;
+  box-shadow: 0 0 8px rgba(111,252,255,0.4);
 }
 
 .contact-form button {
-  background-color: #00f0a0;
+  background-color: #6ffcff;
   color: black;
   border: none;
   padding: 12px 24px;
@@ -482,12 +482,12 @@ body{
 
 .contact-form button:hover {
   background-color: #00c080;
-  box-shadow: 0 0 10px rgba(0, 255, 160, 0.5);
+  box-shadow: 0 0 10px rgba(111,252,255,0.5);
 }
 
 .form-heading {
   text-align: center;
-  color: #00f0a0;
+  color: #6ffcff;
   font-family: "Outfit", sans-serif;
   font-weight: 400;
   font-size: 28px;
@@ -589,7 +589,7 @@ body{
 }
 
 .project-tile:hover {
-  box-shadow: 0 6px 20px rgba(0, 255, 160, 0.4);
+  box-shadow: 0 6px 20px rgba(111,252,255,0.4);
 }
 
 /* Project Content */
@@ -616,7 +616,7 @@ body{
   left: 0;
   width: 0%;
   height: 100%;
-  background: linear-gradient(to right, #00f0a0, #00f0ff);
+  background: linear-gradient(to right, #6ffcff, #00f0ff);
   mix-blend-mode: lighten;
   transition: width 1s ease-in-out;
   z-index: 1;
@@ -636,7 +636,7 @@ body{
 /* Open Icon */
 .open-icon {
   font-size: 16px;
-  color: #00f0a0;
+  color: #6ffcff;
   margin-left: 10px;
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -668,7 +668,7 @@ body{
 }
 
 .footer-name strong {
-  color: #00ffaa;
+  color: #6ffcff;
 }
 
 .footer-socials {
@@ -681,13 +681,13 @@ body{
 .footer-socials a svg {
   width: 26px;
   height: 26px;
-  /* fill: #00ffaa; */
+  /* fill: #6ffcff; */
   transition: transform 0.3s ease, fill 0.3s ease;
 }
 
 .footer-socials a:hover svg {
   transform: scale(1.2);
-  fill: #00f0a0;
+  fill: #6ffcff;
 }
 
 .footer-note {
@@ -966,11 +966,11 @@ body{
   margin-left: 120px;
   margin-top: 100px;
   max-width: 1000px;
-  background: linear-gradient(90deg, #1e1e1e 80%, #00f0a0 100%);
+  background: linear-gradient(90deg, #1e1e1e 80%, #6ffcff 100%);
   border-radius: 18px;
-  box-shadow: 0 6px 24px rgba(0, 255, 160, 0.10);
+  box-shadow: 0 4px 12px rgba(111,252,255,0.10);
   padding: 40px 40px 20px 40px;
-  border-left: 6px solid #00f0a0;
+  border-left: 6px solid #6ffcff;
   position: relative;
 }
 
@@ -978,7 +978,7 @@ body{
   position: relative;
   margin-left: 30px;
   padding-left: 30px;
-  border-left: 3px solid #00f0a0;
+  border-left: 3px solid #6ffcff;
 }
 
 .exp-timeline .role1-box {
@@ -986,7 +986,7 @@ body{
   border: none;
   border-radius: 12px;
   margin-bottom: 40px;
-  box-shadow: 0 2px 10px rgba(0,255,160,0.08);
+  box-shadow: 0 2px 10px rgba(111,252,255,0.08);
   padding: 24px 32px 18px 32px;
   position: relative;
   width: 90%;
@@ -999,14 +999,14 @@ body{
   top: 32px;
   width: 18px;
   height: 18px;
-  background: #00f0a0;
+  background: #6ffcff;
   border-radius: 50%;
   border: 3px solid #fff;
-  box-shadow: 0 0 0 4px rgba(0,255,160,0.15);
+  box-shadow: 0 0 0 4px rgba(111,252,255,0.15);
 }
 
 .exp-timeline .role1 {
-  color: #00f0a0;
+  color: #6ffcff;
   font-size: 22px;
   font-weight: 600;
   margin-left: 0;
@@ -1033,7 +1033,7 @@ body{
   content: '\2022';
   position: absolute;
   left: 0;
-  color: #00f0a0;
+  color: #6ffcff;
   font-size: 22px;
   top: 0;
   line-height: 1;
@@ -1065,7 +1065,7 @@ body{
     width: 10px;
     height: 10px;
     border-width: 2px;
-    box-shadow: 0 0 0 2px rgba(0,255,160,0.10);
+    box-shadow: 0 0 0 2px rgba(111,252,255,0.10);
   }
   .exp-timeline .role1 {
     font-size: 16px;
